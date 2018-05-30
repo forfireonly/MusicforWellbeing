@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Music for Wellbeing</string>
+    <string name="motivational_music_for_running">Motivational Music for Running</string>
+    <string name="best_pump_up_songs_for_gym">Best Pump Up Songs for Gym</string>
+    <string name="meditation_music_for_stretching">Meditation Music for Stretching</string>
+    <string name="nature_sounds_for_relaxation">Nature Sounds for Relaxation</string>
+    <string name="song_name">Song Name</string>
+    <string name="singers_name">Singer\'s Name</string>
+    <string name="now_playing">Now playing</string>
+    <string name="name_of_the_song">Name of Song</string>
+    <string name="performers_name">Name of Performer</string>
+</resources>

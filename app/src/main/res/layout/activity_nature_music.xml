@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list"
+    style="@android:style/Widget.Holo.Light.ListView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ocean"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/_16dp"
+    android:paddingLeft="@dimen/_16dp"
+    android:paddingRight="@dimen/_16dp"
+    android:paddingTop="@dimen/_16dp"
+    tools:context=".NatureMusicActivity" />

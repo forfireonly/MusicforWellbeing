@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/music_for_running"
+        style="@style/GenreButtons"
+        android:background="@drawable/runner"
+        android:text="@string/motivational_music_for_running"
+        android:textColor="@color/black"
+
+        />
+
+
+    <TextView
+        android:id="@+id/music_for_lifting"
+        style="@style/GenreButtons"
+        android:background="@drawable/weightlifter"
+        android:shadowColor="@color/black"
+        android:shadowDx="3"
+        android:shadowDy="-3"
+        android:shadowRadius="5.5"
+        android:text="@string/best_pump_up_songs_for_gym"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/music_for_stretching"
+        style="@style/GenreButtons"
+        android:background="@drawable/stretching"
+        android:text="@string/meditation_music_for_stretching"
+        android:textColor="@color/pink" />
+
+    <TextView
+        android:id="@+id/music_for_relaxation"
+        style="@style/GenreButtons"
+        android:background="@drawable/ocean"
+        android:text="@string/nature_sounds_for_relaxation"
+        android:textColor="@color/baby_blue" />
+
+</LinearLayout>

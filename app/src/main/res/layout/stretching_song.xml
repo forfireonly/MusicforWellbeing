@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stretching_song"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stretching">
+
+    <TextView
+        android:id="@+id/now_playing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/now_playing"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/stretching_song_playing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/now_playing"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_24sp"
+        android:textStyle="italic"
+        tools:text="@string/song_name" />
+
+    <TextView
+        android:id="@+id/stretching_singer_playing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stretching_song_playing"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_24sp"
+        android:textStyle="italic"
+        tools:text="@string/singers_name" />
+
+    <Button
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="@dimen/_72dp"
+        android:layout_height="@dimen/_72dp"
+        android:layout_below="@+id/stretching_singer_playing"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_24dp"
+        android:background="@drawable/stop_playing" />
+
+</RelativeLayout>
+
